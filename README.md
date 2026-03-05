@@ -29,7 +29,7 @@ How to Run
 
 1. Clone the repository
 
-git clone https://github.com/your-username/student-management-system-c.git
+git clone https://github.com/tiwariprachi3007/student-management-system-c.git
 
 2. Move to the project folder
 
