@@ -1,7 +1,7 @@
 Student Management System (C)
 
 A simple Student Management System written in C language using structures and file handling.
-This program allows users to store and manage student records efficiently through a menu-driven interface.
+This program allows users to store and manage student records through a menu-driven console interface.
 
 ---
 
@@ -21,20 +21,27 @@ Technologies Used
 - C Programming Language
 - Structures
 - File Handling
-- Standard Input/Output
+- Standard Input / Output
 
 ---
 
 How to Run
 
-1. Clone this repository
-2. Compile the program
+1. Clone the repository
 
-gcc student.c
+git clone https://github.com/your-username/student-management-system-c.git
 
-3. Run the program
+2. Move to the project folder
 
-./a.out
+cd student-management-system-c
+
+3. Compile the program
+
+gcc student.c -o student
+
+4. Run the program
+
+./student
 
 ---
 
@@ -55,8 +62,14 @@ Project Structure
 student-management-system-c
 │
 ├── student.c
-├── students.dat
-└── README.md
+├── README.md
+├── LICENSE
+└── .gitignore
+
+Note
+
+- "students.dat" is automatically created when the program runs and stores student records.
+- Compiled files such as ".exe" or ".out" are generated during compilation and are ignored using ".gitignore".
 
 ---
 
